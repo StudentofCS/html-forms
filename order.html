@@ -31,13 +31,51 @@
         </tr>
     </table>
 
+    <h2>Order Form</h2>
+
+    <form>
+        Your name:
+        <input type="text" name="name">
+        <br>
+        Who are we sending this to?
+        <input type="text" name="recipient">
+        <br>
+
+        Choose a melon
+        <select name="melon">
+        	<option disabled selected hidden>Melons</option>
+            <option value="watermelon">Watermelon</option>
+            <option value="canteloupe">Canteloupe</option>
+            <option value="honeydew">Honeydew</option>
+        </select>
+        <br>
+
+        When should we deliver?
+        <input type="radio" id="morning" name="time" value="am">
+        <label for="morning">Morning</label>
+        <input type="radio" id="evening" name="time" value="pm">
+        <label for="evening">Evening</label>
+        <input type="radio" id="anytime" name="time" value="any">
+        <label for="anytime">Any time</label>
+
+        <p>Enter your message:</p>
+        <textarea name="message" cols="79" rows="5"></textarea>
+        <br>
+
+        Subscribe to our newsletter
+        <input type="checkbox" name="subscribe" value="yes">
+        <br>
+
+        <input type="submit">
+
+    </form>
 
     
 </body>
 </html>
 
 
-Order a Melongram
+<!-- Order a Melongram
 
 There's no better way to show a loved one you care than with a Melongram.
 
@@ -71,4 +109,4 @@ Any time
 Enter your message:
 
 Subscribe to our newsletter
-Yes
+Yes -->
